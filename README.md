@@ -1,3 +1,3 @@
-# br pag
+# br page
 # hosting git
 
