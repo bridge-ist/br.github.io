@@ -45,6 +45,7 @@ button {
 #myeverything {
     background-color: #121212;
     transition: background-color 0.5s;
+    margin: auto;
 }
 #myeverything:hover {
     background-color: #1b1b1b;
@@ -53,3 +54,21 @@ button {
     text-transform: lowercase;
     font-style: italic;
 }
+/*for activity tab*/
+.work {
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    border: 15px solid rgb(54, 54, 54);
+    padding: 50px;
+    margin-left: 5%;
+    margin-top: 3%;
+    padding-left: 2%;
+}
+.explain {
+    display: flex;
+    flex-direction: row;
+    border: 15px solid rgb(54, 54, 54);
+    padding: 5px;
+}
+/*activity ends*/
