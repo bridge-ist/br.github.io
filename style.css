@@ -53,7 +53,10 @@ button {
 #motd {
     text-transform: lowercase;
     font-style: italic;
+    padding-left: 5%;
+    font-size: 22px;
 }
+
 /*for activity tab*/
 .work {
     display: flex;
