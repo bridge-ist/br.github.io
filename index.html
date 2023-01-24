@@ -1,49 +1,37 @@
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>A Work in Progress</title>
-</head>
-<!--this is where i add the css element into it as internal, no external-->
-<style>
-#frontal {
-    font-family: Arial, Helvetica, sans-serif;
-    color: whitesmoke;
-    font-size: 52px;
-    text-align: center;
-}
-#notreal {
-    width: 300px;
-    opacity: 0.6;
-    cursor: not-allowed;
-    padding: 15px 32px;
-    position: absolute;
-    top: 40%;
-    left: 50%;
-}
-#enter{
-    width: 300px;
-    border-radius: 4px;
-    border-color: #f44336;
-    background-color: #f44336;
-    padding: 15px 32px;
-    position: absolute;
-    top: 40%;
-    left: 25%;
-}
-</style>
-<!--the content itself would be contained here-->
-<body style="background-color: black;">
-    <h1 id="frontal">My current page is in an ongoing remake.</h1>
-    <p id="frontal">If you wish to preview it, please press Continue.</p>
-    <button onclick="window.location.href='/index-old.html'" 
-    type="button" id="enter">Continue
-    
-    </button>
-    <button onclick="window.location.href='https://bit.ly/bridgedatabase'" type="button" id="notreal">
-        Let me into the "db", I am a real bridge
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" data-l10n-sync="true" dir="ltr" lang="en-US">
+  <head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="Content-Security-Policy" content="default-src chrome:; object-src 'none'" />
+    <meta name="color-scheme" content="light dark" />
+    <title data-l10n-id="neterror-dns-not-found-title">Ahem, it's not finished</title>
+    <link rel="stylesheet" href="chrome://global/skin/aboutNetError.css" type="text/css" media="all" />
+    <link rel="icon" id="favicon" href="chrome://global/skin/icons/info.svg" />
+    <link rel="localization" href="branding/brand.ftl" />
+    <link rel="localization" href="toolkit/neterror/certError.ftl" />
+    <link rel="localization" href="toolkit/neterror/netError.ftl" />
+  </head>
 
-    </button>
-</body>
+  <body class="neterror">
+    <!-- PAGE CONTAINER (for styling purposes only) -->
+    <div class="container">
+      <div id="text-container">
+        <!-- Error Title -->
+        <div class="title">
+          <h1 class="title-text" data-l10n-id="dnsNotFound-title">Yeah, the site is still unfinished.</h1>
+        </div>
+
+        <!-- Short Description -->
+        <p id="errorShortDesc">You could however, access to it while being worked on</p>
+        <p id="errorShortDesc2"></p>
+
+        <div id="errorWhatToDo">
+          <p id="errorWhatToDoTitle" data-l10n-id="certerror-what-can-you-do-about-it-title">Please expect that everything is a concept, subject to change.</p>
+        </div>
+      <form action="index-old.html">
+      <button style="position: absolute;">OK</button>
+      </form>
+    </div> 
+  </body>
 </html>
