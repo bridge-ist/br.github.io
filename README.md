@@ -1,4 +1,4 @@
-**Discontinued, moved to (here)[https://github.com/closebridge/wf]**
+**Discontinued, moved to [here](https://github.com/closebridge/wf)**
 "webfront" git repo
 ===============
 ### This is where I store the website's file in.
